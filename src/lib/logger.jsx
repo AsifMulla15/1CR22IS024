@@ -1,12 +1,7 @@
 
 import React, { createContext, useContext, useMemo } from 'react';
 
-/**
- * Lightweight logging middleware for the client app.
- * - No console usage.
- * - Persists to localStorage under `__logs__`.
- * - Provides `useLogger()` hook and a `withLogging` wrapper for actions.
- */
+
 const STORAGE_KEY = '__logs__';
 
 function loadLogs() {
