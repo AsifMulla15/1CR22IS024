@@ -1,6 +1,6 @@
 
 import React, { createContext, useContext, useMemo } from 'react';
-
+import { Log as baseLog } from "@logging/logger.js";
 
 const STORAGE_KEY = '__logs__';
 
